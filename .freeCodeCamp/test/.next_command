@@ -69,3 +69,20 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 psql -U postgres < universe.sql
 psql -U postgres < universe.sql
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+echo "# universe.sql" >> README.md
+git init
+git add README.md
+git brach -m "database"
+git branch -m "database"
+git commit -m "database"
+git remote add origin https://github.com/sao22071/universe.sql.git
+git branch -M main
+git remote add origin https://github.com/sao22071/universe.sql.git
+git remote set-url origin https://github.com/sao22071/universe.sql.git
+git push -u origin main
+ls --color=auto
+git add universe.sql
+git commit -m "SQL UNIVERSE"
+git push origin main
+git add .
